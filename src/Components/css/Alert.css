@@ -1,0 +1,12 @@
+.notShowAlert {
+    display: none;
+}
+
+.showAlert {
+    display: flex;
+}
+
+#alert {
+    color: red;
+    width: 90%;
+}
