@@ -1,5 +1,48 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## ReactJS Binary to Decimal Converter
+
+This is an implementation of one of the beginner project ideas from [this repository](https://github.com/florinpop17/app-ideas).
+
+The original specs of this project are:
+
+Allows the user to enter strings of up to 8 binary digits, 0's
+and 1's, in any sequence and then displays its decimal equivalent.
+
+This challenge requires that the developer implementing it follow these
+constraints:
+
+-   Arrays may not be used to contain the binary digits entered by the user
+-   Determining the decimal equivalent of a particular binary digit in the
+    sequence must be calculated using a single mathematical function, for
+    example the natural logarithm. It's up to you to figure out which function
+    to use.
+
+My code was made based on theese User Stories:
+
+-   [ ] User can enter up to 8 binary digits in one input field
+-   [ ] User must be notified if anything other than a 0 or 1 was entered
+-   [ ] User views the results in a single output field containing the decimal (base 10) equivalent of the binary number that was entered
+
+I also implemented this Bonus Feature:
+
+-   [ ] User can enter a variable number of binary digits
+
+And my own Bonus Features:
+
+- [ ] User can define a custom limit of digits to the input (not implemented yet)
+- [ ] User can clear the fields using a Clear button (not implemented yet)
+
+## Gitpod
+
+To easily try this project, you can use [Gitpod](https://www.gitpod.io/).
+
+Throught this [link](http://gitpod.io/#github.com/adskevin/react-binary-to-decimal), you can directly access this repository inside an web environment.
+
+You just need to login with you Github and wait for `npm` to auto run `install`. After that, the preview will automatically show up in the right side of the screen.
+
+You can see and edit the code inside Gitpod environment, so feel free to test and send me some feedback. I'm new to React, so this would help me a lot.
+
 ## Available Scripts
 
 In the project directory, you can run:
