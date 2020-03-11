@@ -6,7 +6,9 @@ export default class Alert extends React.Component {
     render (){
         return(
             <>
-                <p id="alert" className={this.props.alertState ? 'showAlert' : 'notShowAlert'}>{this.props.alertText}</p>
+                <div id="alert">
+                    <p className={this.props.alertState ? 'showAlert' : 'notShowAlert'}>{this.props.alertText}</p>
+                </div>
             </>
         )
     }

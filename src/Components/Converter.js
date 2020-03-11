@@ -5,6 +5,7 @@ import Alert from './Alert'
 import Result from './Result'
 
 import './css/Converter.css'
+import Button from './Button'
 
 export default class Converter extends React.Component {
     constructor() {
@@ -30,9 +31,23 @@ export default class Converter extends React.Component {
         this.setResultText(result)
     }
 
+    handleClear = () => {
+        this.setState({
+            resultText: 0,
+            value: ''
+        })
+    }
+
     setResultText = (text) => {
         this.setState({
             resultText: text
+        })
+    }
+
+    setValue = (text) => {
+        // console.log(text)
+        this.setState({
+            value: text
         })
     }
 
@@ -61,10 +76,11 @@ export default class Converter extends React.Component {
             <div id='converter'>
                 <h1>React Binary to Decimal Converter</h1>
                 <p>Type your Binary: </p>
-                <BinaryInput alertOn={this.alertOn} alertOff={this.alertOff} alertOutOfRange={this.alertOutOfRange} convert={this.convert}/>
+                <BinaryInput setValue={this.setValue} alertOn={this.alertOn} alertOff={this.alertOff} alertOutOfRange={this.alertOutOfRange} convert={this.convert} value={this.state.value}/>
                 <p>Your Decimal Result: </p>
                 <Result resultText={this.state.resultText}/>
                 <Alert alertState={this.state.alertState} alertText={this.state.alertText}/>
+                <Button text='Clear Fields' onClick={() => this.handleClear()}/>
             </div>
         )
     }

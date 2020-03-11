@@ -7,6 +7,12 @@
 }
 
 #alert {
+    margin-top: 15px;
     color: red;
     width: 90%;
+    height: 40px;
+}
+
+#alert > p {
+    margin: 0px;
 }

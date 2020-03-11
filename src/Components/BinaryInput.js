@@ -3,12 +3,12 @@ import React from 'react'
 import './css/Input.css'
 
 export default class BinaryInput extends React.Component {
-    constructor(props) {
-        super(props)
-        this.state = {
-            value: ''
-        }
-    }
+    // constructor(props) {
+    //     super(props)
+    //     this.state = {
+    //         value: this.props.value
+    //     }
+    // }
 
     handleOnChange = (event) => {
         var newValue = event.target.value
@@ -24,11 +24,8 @@ export default class BinaryInput extends React.Component {
                     return
                 }
             }
-            
-            this.setState({
-                value: newValue
-            })
 
+            this.props.setValue(newValue)
             this.props.convert(newValue)
         }
         //  else {
@@ -39,7 +36,7 @@ export default class BinaryInput extends React.Component {
     render() {
         return(
             <>
-                <input id='binInput' type='text' onChange={this.handleOnChange} value={this.state.value}></input>
+                <input id='binInput' type='text' onChange={this.handleOnChange} value={this.props.value}></input>
             </>
         )
     }
