@@ -1,6 +1,5 @@
 body {
   background-color: blue;
-  height: 500px;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -14,7 +13,8 @@ body {
   background-color: white;
 }
 
-/* #root {
-  background-color: blue;
-  height: 500px;
-} */
+#root {
+  display: flex;
+  align-items: center;
+}
+

@@ -30,7 +30,7 @@ I also implemented this Bonus Feature:
 
 And my own Bonus Features:
 
-- [ ] User can define a custom limit of digits to the input (not implemented yet)
+-   User can define a custom limit of digits to the input
 -   User can clear the fields using a Clear button
 
 ## Gitpod

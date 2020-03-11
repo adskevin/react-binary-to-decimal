@@ -7,7 +7,7 @@ export default class ClearButton extends React.Component {
         return(
             <>
                 <div className='button' onClick={this.props.onClick}>
-                    {this.props.text}
+                    <p>{this.props.text}</p>
                 </div>
             </>
         )

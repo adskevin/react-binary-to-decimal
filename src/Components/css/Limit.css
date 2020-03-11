@@ -1,0 +1,23 @@
+#limit {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#limit > p {
+    margin: 0;
+}
+
+#limit input {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    text-align: center;
+    width: 90%;
+}

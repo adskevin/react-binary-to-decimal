@@ -3,7 +3,7 @@ import React from 'react'
 import './css/Alert.css'
 
 export default class Alert extends React.Component {
-    render (){
+    render() {
         return(
             <>
                 <div id="alert">
