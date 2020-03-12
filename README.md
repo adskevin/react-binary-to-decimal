@@ -32,10 +32,11 @@ And my own Bonus Features:
 
 -   User can define a custom limit of digits to the input
 -   User can clear the fields using a Clear button
+-   Deploy the project in [Netlify](https://www.netlify.com/)
 
 ## Deployed project
 
-You can access the result of this project through the following link:
+You can access the result of this project (deployed by me) through the following link:
 
 https://react-bin2dec.netlify.com/
 
