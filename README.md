@@ -35,7 +35,7 @@ And my own Bonus Features:
 
 ## Deployed project
 
-You can access the result of this project trought the following link:
+You can access the result of this project through the following link:
 
 https://react-bin2dec.netlify.com/
 
